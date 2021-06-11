@@ -192,7 +192,9 @@ h2 {
     }
 
     .project {
-        width: 420px;
+        flex-grow: 1;
+        flex-basis: 35%;
+        margin: 1rem;
     }
     .mobile-sz {
         display: none;
@@ -237,7 +239,9 @@ h2 {
     }
 
     .project {
-        width: 420px;
+        flex-grow: 1;
+        flex-basis: 30%;
+        margin: 0.5rem;
     }
 
 }
